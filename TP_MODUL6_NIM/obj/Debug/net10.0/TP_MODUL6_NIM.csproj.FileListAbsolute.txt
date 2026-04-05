@@ -1,0 +1,15 @@
+C:\Users\maxthejanitor\OneDrive\Pictures\Documents\KULIAH\SEMESTER 4\KRPL\TP_MODUL6_NIM\TP_MODUL6_NIM\bin\Debug\net10.0\TP_MODUL6_NIM.exe
+C:\Users\maxthejanitor\OneDrive\Pictures\Documents\KULIAH\SEMESTER 4\KRPL\TP_MODUL6_NIM\TP_MODUL6_NIM\bin\Debug\net10.0\TP_MODUL6_NIM.deps.json
+C:\Users\maxthejanitor\OneDrive\Pictures\Documents\KULIAH\SEMESTER 4\KRPL\TP_MODUL6_NIM\TP_MODUL6_NIM\bin\Debug\net10.0\TP_MODUL6_NIM.runtimeconfig.json
+C:\Users\maxthejanitor\OneDrive\Pictures\Documents\KULIAH\SEMESTER 4\KRPL\TP_MODUL6_NIM\TP_MODUL6_NIM\bin\Debug\net10.0\TP_MODUL6_NIM.dll
+C:\Users\maxthejanitor\OneDrive\Pictures\Documents\KULIAH\SEMESTER 4\KRPL\TP_MODUL6_NIM\TP_MODUL6_NIM\bin\Debug\net10.0\TP_MODUL6_NIM.pdb
+C:\Users\maxthejanitor\OneDrive\Pictures\Documents\KULIAH\SEMESTER 4\KRPL\TP_MODUL6_NIM\TP_MODUL6_NIM\obj\Debug\net10.0\TP_MODUL6_NIM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maxthejanitor\OneDrive\Pictures\Documents\KULIAH\SEMESTER 4\KRPL\TP_MODUL6_NIM\TP_MODUL6_NIM\obj\Debug\net10.0\TP_MODUL6_NIM.AssemblyInfoInputs.cache
+C:\Users\maxthejanitor\OneDrive\Pictures\Documents\KULIAH\SEMESTER 4\KRPL\TP_MODUL6_NIM\TP_MODUL6_NIM\obj\Debug\net10.0\TP_MODUL6_NIM.AssemblyInfo.cs
+C:\Users\maxthejanitor\OneDrive\Pictures\Documents\KULIAH\SEMESTER 4\KRPL\TP_MODUL6_NIM\TP_MODUL6_NIM\obj\Debug\net10.0\TP_MODUL6_NIM.csproj.CoreCompileInputs.cache
+C:\Users\maxthejanitor\OneDrive\Pictures\Documents\KULIAH\SEMESTER 4\KRPL\TP_MODUL6_NIM\TP_MODUL6_NIM\obj\Debug\net10.0\TP_MODUL6_NIM.sourcelink.json
+C:\Users\maxthejanitor\OneDrive\Pictures\Documents\KULIAH\SEMESTER 4\KRPL\TP_MODUL6_NIM\TP_MODUL6_NIM\obj\Debug\net10.0\TP_MODUL6_NIM.dll
+C:\Users\maxthejanitor\OneDrive\Pictures\Documents\KULIAH\SEMESTER 4\KRPL\TP_MODUL6_NIM\TP_MODUL6_NIM\obj\Debug\net10.0\refint\TP_MODUL6_NIM.dll
+C:\Users\maxthejanitor\OneDrive\Pictures\Documents\KULIAH\SEMESTER 4\KRPL\TP_MODUL6_NIM\TP_MODUL6_NIM\obj\Debug\net10.0\TP_MODUL6_NIM.pdb
+C:\Users\maxthejanitor\OneDrive\Pictures\Documents\KULIAH\SEMESTER 4\KRPL\TP_MODUL6_NIM\TP_MODUL6_NIM\obj\Debug\net10.0\TP_MODUL6_NIM.genruntimeconfig.cache
+C:\Users\maxthejanitor\OneDrive\Pictures\Documents\KULIAH\SEMESTER 4\KRPL\TP_MODUL6_NIM\TP_MODUL6_NIM\obj\Debug\net10.0\ref\TP_MODUL6_NIM.dll
