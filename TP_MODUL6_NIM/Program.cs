@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 
 namespace MusicApp
 {
@@ -10,48 +11,75 @@ namespace MusicApp
 
         public SayaMusicTrack(string title)
         {
-            this.title = title;
+            Debug.Assert(title != null, "Judul tidak boleh null");
+            Debug.Assert(title.Length <= 100, "Judul maksimal 100 karakter");
 
+            this.title = title;
             Random rand = new Random();
             this.id = rand.Next(10000, 100000);
-
             this.playCount = "0";
         }
 
         public void IncreasePlayCount(int count)
         {
+            Debug.Assert(count <= 10000000, "Input maksimal 10.000.000");
+
             int currentCount = int.Parse(this.playCount);
-            int newCount = currentCount + count;
-            this.playCount = newCount.ToString();
-            Console.WriteLine($"Berhasil menambah {count} play.");
+
+            checked
+            {
+                try
+                {
+                    int newCount = currentCount + count;
+                    this.playCount = newCount.ToString();
+                }
+                catch (OverflowException)
+                {
+                    throw new OverflowException();
+                }
+            }
         }
 
         public void PrintTrackDetails()
         {
-            Console.WriteLine("\n============================");
-            Console.WriteLine($"TRACK ID    : {this.id}");
-            Console.WriteLine($"TITLE       : {this.title}");
-            Console.WriteLine($"PLAY COUNT  : {this.playCount}");
-            Console.WriteLine("============================");
+            Console.WriteLine("----------------------------");
+            Console.WriteLine($"ID    : {id}");
+            Console.WriteLine($"Title : {title}");
+            Console.WriteLine($"Plays : {playCount}");
+            Console.WriteLine("----------------------------");
         }
     }
 
     class Program
     {
-        static void Main(string[] args)
+        public static void Main()
         {
-            Console.WriteLine("--- Menginisialisasi Lagu Baru ---");
             SayaMusicTrack lagu = new SayaMusicTrack("Chop Suey!");
 
-            lagu.PrintTrackDetails();
+            try
+            {
+                lagu.PrintTrackDetails();
 
-            Console.WriteLine("\n--- Menambahkan Play Count ---");
-            lagu.IncreasePlayCount(14;
-            lagu.IncreasePlayCount(69);
+                Console.WriteLine("\nMenambah 5.000.000 play...");
+                lagu.IncreasePlayCount(5000000);
 
-            lagu.PrintTrackDetails();
+                Console.WriteLine("\nMenambah angka sangat besar untuk memicu Exception...");
 
-            Console.WriteLine("\nTekan tombol apa saja untuk keluar...");
+                for (int i = 0; i < 250; i++)
+                {
+                    lagu.IncreasePlayCount(10000000);
+                }
+            }
+            catch (OverflowException)
+            {
+                Console.WriteLine("Terjadi Error: Penambahan Play Count melebihi batas maksimum (Overflow).");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Terjadi kesalahan: " + ex.Message);
+            }
+
+            Console.WriteLine("\nProgram selesai running.");
             Console.ReadKey();
         }
     }
